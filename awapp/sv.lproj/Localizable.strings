@@ -1,0 +1,136 @@
+/*
+  Localizable.strings
+  awapp
+
+  Created by Putte on 2019-12-11.
+  Copyright © 2019 Putte. All rights reserved.
+*/
+
+//General
+"email" = "E-postadress";
+"tab1" = "Boka";
+"tab2" = "Hitta hit";
+"tab3" = "Mer";
+
+//Tutorial
+"tutorial_button" = "Kom igång!";
+
+//SigninViewController
+"login_loginText" = "Logga in";
+"login_registerText" = "Registrera";
+"login_password" = "Lösenord";
+"login_forgot_button" = "Glömt lösenord?";
+
+"alert_ops" = "Ops!";
+"alert_valid_email" = "Du måste ange en giltlig e-postadress!";
+"alert_enter_credentials" = "Du måste fylla i e-postadress och lösenord!";
+
+//Reset password
+"reset_password" = "Återställ lösenord";
+
+//MapViewController
+"map_header" = "Hitta hit";
+"map_navigation_button" = "Navigation";
+"map_opening_hours" = "Öppettider";
+"map_monday_thursday" = "Mån-Tors: 07:00 - 17:00";
+"map_friday" = "Fredag: 07:00 - 14:00";
+"map_weekend" = "Lör-Sön: Stängt";
+"map_lunch_closed" = "Lunch 12:00 - 12:40 Mån-Tors";
+
+//MainViewController
+"main_header" = "Boka tid";
+"main_selected_car" = "Vald bil";
+"main_change_car" = "Ändra vald bil";
+
+"main_book_service" = "Boka service/reparation";
+"main_book_wheel" = "Boka däckbyte";
+"main_book_call" = "Ring och boka";
+"main_book_mail" = "Boka via mail";
+
+//ChooseCarViewController
+"choose_car_title" = "Välj bil";
+
+//BookWheelViewController
+"wheel_header" = "Boka däckbyte";
+
+//BookServiceViewController
+"service_header" = "Boka service/reparation";
+
+//MoreViewController (ProfileViewController)
+"more_header" = "Mer";
+
+//* Sections
+"more_s_info" = "Min information";
+"more_s_invite" = "Socialt";
+"more_s_discount" = "Rabatter";
+"more_s_account" = "Hantera konto";
+"more_s_admin" = "Administration";
+
+//*Button names
+"more_b_info" = "Personlig information";
+"more_b_car" = "Mina fordon";
+"more_b_invite" = "Bjud in en vän";
+"more_b_facebook" = "Följ oss på Facebook";
+"more_b_instagram" = "Följ oss på Instagram";
+"more_b_discounts" = "Mina rabatter";
+"more_b_add_discount" = "Ange rabattkod";
+"more_b_change_pass" = "Byt lösenord";
+"more_b_logout" = "Logga ut";
+"more_b_admin" = "Adminpanel";
+
+//*Alert
+
+"profile_alert_mail" = "Vi kommer att skicka ett mail med en länk där du kan byta lösenord";
+"profile_alert_change_pass" = "Byt lösenord";
+
+"profile_alert_title" = "Varning!";
+"profile_alert_message" = "Är du säker på att du vill logga ut?";
+"profile_alert_logout" = "Logga ut";
+"profile_alert_cancel" = "Avbryt";
+
+//PersonViewController
+"person_header" = "Personlig information";
+"person_firstname" = "Förnamn";
+"person_lastname" = "Efternamn";
+"person_phone" = "Telefon";
+
+"person_save" = "Spara";
+"person_change" = "Ändra";
+
+//MyCarsViewController
+"cars_header" = "Mina fordon";
+"cars_add" = "Lägg till";
+
+"cars_alert_title" = "Ops!";
+"cars_alert_message" = "Du måste ange ditt registreringsnummer";
+
+//DiscountViewController
+"discount_header" = "Mina rabatter";
+"discount_none" = "Du har inga rabatter!";
+
+//UseDiscountViewController
+"use_discount_header" = "Använd rabatt";
+"use_discount_qr_text" = "Visa QR kod för kundmottagare";
+"use_discount_info" = "Information om rabatten";
+"use_discount_category" = "Kategori";
+"use_discount_percent" = "Antal procent";
+"use_discount_expires" = "Utgår";
+"use_discount_valid_at" = "OBS! Gäller endast på Mekonomen Tagenevägen 9";
+
+//RedeemViewController
+"redeem_header" = "Rabattkod";
+"redeem_enter_code" = "Ange en rabattkod";
+"redeem_button" = "Hämta rabatt";
+
+"redeem_alert_button_try_again" = "Försök igen";
+"redeem_alert_button_close" = "Stäng";
+
+"redeem_alert_title_error" = "Fel inträffade";
+"redeem_alert_message_used" = "Du har redan använt rabattkoden!";
+
+"redeem_alert_couldnt_find" = "Rabattkoden kunde inte hittas!";
+
+"redeem_alert_title_found" = "Lyckades!";
+"redeem_alert_added" = "En rabattkod har lagts till i din lista";
+
+

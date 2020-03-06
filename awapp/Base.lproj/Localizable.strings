@@ -1,0 +1,135 @@
+/*
+  Localizable.strings
+  awapp
+
+  Created by Putte on 2019-12-11.
+  Copyright © 2019 Putte. All rights reserved.
+*/
+
+//General
+"email" = "Email";
+"tab1" = "Book";
+"tab2" = "Find us";
+"tab3" = "More";
+
+//Tutorial
+"tutorial_button" = "Get started!";
+
+//SigninViewController
+"login_loginText" = "Login";
+"login_registerText" = "Register";
+"login_password" = "Password";
+"login_forgot_button" = "Forgot password?";
+
+"alert_ops" = "Ops!";
+"alert_valid_email" = "You have to enter a valid email";
+"alert_enter_credentials" = "You have to enter email and password";
+
+//Reset password
+"reset_password" = "Reset password";
+
+//MapViewController
+"map_header" = "Find us";
+"map_navigation_button" = "Navigation";
+"map_opening_hours" = "Hours";
+"map_monday_thursday" = "Mon-Thur: 07:00 - 17:00";
+"map_friday" = "Friday: 07:00 - 14:00";
+"map_weekend" = "Sat-Sun: Closed";
+"map_lunch_closed" = "Lunch 12:00 - 12:40 Mon-Thur";
+
+//MainViewController
+"main_header" = "Book time";
+"main_selected_car" = "Selected car";
+"main_change_car" = "Change selected car";
+
+"main_book_service" = "Book service/repair";
+"main_book_wheel" = "Book a tire change";
+"main_book_call" = "Call and book";
+"main_book_mail" = "Book by email";
+
+//ChooseCarViewController
+"choose_car_title" = "Choose car";
+
+//BookWheelViewController
+"wheel_header" = "Book a tire change";
+
+//BookServiceViewController
+"service_header" = "Book service/repair";
+
+//MoreViewController (ProfileViewController)
+"more_header" = "More";
+
+//* Sections
+"more_s_info" = "My information";
+"more_s_invite" = "Social";
+"more_s_discount" = "Discounts";
+"more_s_account" = "Account";
+"more_s_admin" = "Administration";
+
+//*Button names
+"more_b_info" = "Personal information";
+"more_b_car" = "My vehicles";
+"more_b_invite" = "Invite a friend";
+"more_b_facebook" = "Follow us on Facebook";
+"more_b_instagram" = "Follow us on Instagram";
+"more_b_discounts" = "My discounts";
+"more_b_add_discount" = "Enter a discount code";
+"more_b_change_pass" = "Change password";
+"more_b_logout" = "Logout";
+"more_b_admin" = "Adminpanel";
+
+//*Alert
+"profile_alert_mail" = "We're going to send you an email where you can change password";
+"profile_alert_change_pass" = "Change password";
+
+"profile_alert_title" = "Warning!";
+"profile_alert_message" = "Are you sure that you wanna logout?";
+"profile_alert_logout" = "Logout";
+"profile_alert_cancel" = "Cancel";
+
+//PersonViewController
+"person_header" = "Personal information";
+"person_firstname" = "Firstname";
+"person_lastname" = "Lastname";
+"person_phone" = "Phone";
+
+"person_save" = "Save";
+"person_change" = "Change";
+
+//MyCarsViewController
+"cars_header" = "My vehicles";
+"cars_add" = "Add new";
+
+"cars_alert_title" = "Ops!";
+"cars_alert_message" = "You have to enter a registrationnumber";
+
+//DiscountViewController
+"discount_header" = "My discounts";
+"discount_none" = "You don't have any discounts!";
+
+//UseDiscountViewController
+"use_discount_header" = "Use discount";
+"use_discount_qr_text" = "Show QR code for customer recipients";
+"use_discount_info" = "Information about the discount";
+"use_discount_category" = "Category";
+"use_discount_percent" = "Number of percentage";
+"use_discount_expires" = "Expires";
+"use_discount_valid_at" = "NOTE! Applies only to Mekonomen Tagenevägen 9";
+
+//RedeemViewController
+"redeem_header" = "Discount code";
+"redeem_enter_code" = "Enter a discount code";
+"redeem_button" = "Get discount";
+
+"redeem_alert_button_try_again" = "Try again";
+"redeem_alert_button_close" = "Close";
+
+"redeem_alert_title_error" = "Error occured!";
+"redeem_alert_message_used" = "You have already used this discount code!";
+
+"redeem_alert_couldnt_find" = "Discount code could not be found!";
+
+"redeem_alert_title_found" = "Succeded!";
+"redeem_alert_added" = "A discount code was added to your list!";
+
+

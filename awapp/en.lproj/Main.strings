@@ -1,0 +1,237 @@
+
+/* Class = "UINavigationItem"; title = "Book a tire change"; ObjectID = "4ZV-tw-du2"; */
+"4ZV-tw-du2.title" = "Book a tire change";
+
+/* Class = "UILabel"; text = "Friday: 07:00 - 14:00"; ObjectID = "4pG-UN-CUZ"; */
+"4pG-UN-CUZ.text" = "Friday: 07:00 - 14:00";
+
+/* Class = "UINavigationItem"; title = "Personal"; ObjectID = "57V-dF-NZP"; */
+"57V-dF-NZP.title" = "Personal";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5gf-w3-Dry"; */
+"5gf-w3-Dry.text" = "Label";
+
+/* Class = "UILabel"; text = "Lastname"; ObjectID = "5o7-NO-1Ft"; */
+"5o7-NO-1Ft.text" = "Lastname";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "7Df-pA-NVs"; */
+"7Df-pA-NVs.text" = "Email";
+
+/* Class = "UILabel"; text = "Expires"; ObjectID = "8K9-DW-DCk"; */
+"8K9-DW-DCk.text" = "Expires";
+
+/* Class = "UIButton"; normalTitle = "Kom igång!"; ObjectID = "8fS-nu-LoL"; */
+"8fS-nu-LoL.normalTitle" = "Kom igång!";
+
+/* Class = "UINavigationItem"; title = "Add a discount code"; ObjectID = "AdB-iu-tyM"; */
+"AdB-iu-tyM.title" = "Add a discount code";
+
+/* Class = "UIBarButtonItem"; title = "Change"; ObjectID = "AdQ-OT-f5w"; */
+"AdQ-OT-f5w.title" = "Change";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "C2I-Zz-dYC"; */
+"C2I-Zz-dYC.normalTitle" = "Forgot password?";
+
+/* Class = "UITabBarItem"; title = "Book"; ObjectID = "Ckb-bx-rsV"; */
+"Ckb-bx-rsV.title" = "Book";
+
+/* Class = "UILabel"; text = "Selected car"; ObjectID = "CtZ-5o-8Mh"; */
+"CtZ-5o-8Mh.text" = "Selected car";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DM8-A6-HUO"; */
+"DM8-A6-HUO.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "Dqn-8S-o1o"; */
+"Dqn-8S-o1o.title" = "Login";
+
+/* Class = "UITextField"; placeholder = "Exempel: aw20"; ObjectID = "ERU-hN-DTV"; */
+"ERU-hN-DTV.placeholder" = "Exempel: aw20";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "ExV-XC-BR0"; */
+"ExV-XC-BR0.text" = "Password";
+
+/* Class = "UINavigationItem"; title = "My vehicles"; ObjectID = "FFY-zN-Kqt"; */
+"FFY-zN-Kqt.title" = "My vehicles";
+
+/* Class = "UIButton"; normalTitle = "Reset password"; ObjectID = "HE6-qA-d7T"; */
+"HE6-qA-d7T.normalTitle" = "Reset password";
+
+/* Class = "UITextField"; placeholder = "Förnamn"; ObjectID = "HaQ-JC-hu4"; */
+"HaQ-JC-hu4.placeholder" = "Förnamn";
+
+/* Class = "UILabel"; text = "Utgångsdatum:"; ObjectID = "Hz4-Sg-R6Z"; */
+"Hz4-Sg-R6Z.text" = "Utgångsdatum:";
+
+/* Class = "UILabel"; text = "Lunch 12:00 - 12:40 Mon-Thur"; ObjectID = "IHT-Tt-sfs"; */
+"IHT-Tt-sfs.text" = "Lunch 12:00 - 12:40 Mon-Thur";
+
+/* Class = "UILabel"; text = "Antal procent"; ObjectID = "IwN-JG-CDY"; */
+"IwN-JG-CDY.text" = "Antal procent";
+
+/* Class = "UINavigationItem"; title = "Skanna QR kod"; ObjectID = "J17-6b-CP4"; */
+"J17-6b-CP4.title" = "Skanna QR kod";
+
+/* Class = "UIButton"; normalTitle = "Add new"; ObjectID = "JSB-Hv-zPC"; */
+"JSB-Hv-zPC.normalTitle" = "Add new";
+
+/* Class = "UITextField"; placeholder = "email@example.com"; ObjectID = "LY7-Oe-5Ek"; */
+"LY7-Oe-5Ek.placeholder" = "email@example.com";
+
+/* Class = "UIButton"; normalTitle = "Skapa rabattkod"; ObjectID = "Lsa-1i-zsq"; */
+"Lsa-1i-zsq.normalTitle" = "Skapa rabattkod";
+
+/* Class = "UINavigationItem"; title = "Use discount"; ObjectID = "LvF-Wr-myt"; */
+"LvF-Wr-myt.title" = "Use discount";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "M23-Wr-qOV"; */
+"M23-Wr-qOV.text" = "Label";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "MWZ-Ac-08O"; */
+"MWZ-Ac-08O.text" = "Category";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "NXw-6b-zW5"; */
+"NXw-6b-zW5.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NcN-8M-ssY"; */
+"NcN-8M-ssY.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Change car"; ObjectID = "P4M-6B-nDs"; */
+"P4M-6B-nDs.normalTitle" = "Change car";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "Pxs-B8-9de"; */
+"Pxs-B8-9de.text" = "Phone";
+
+/* Class = "UILabel"; text = "Sat-Sun: Closed"; ObjectID = "Q3j-a1-g5v"; */
+"Q3j-a1-g5v.text" = "Sat-Sun: Closed";
+
+/* Class = "UILabel"; text = "Registrationplate"; ObjectID = "QdR-0f-J8e"; */
+"QdR-0f-J8e.text" = "Registrationplate";
+
+/* Class = "UILabel"; text = "Rabattkod"; ObjectID = "Qmt-nb-UXX"; */
+"Qmt-nb-UXX.text" = "Rabattkod";
+
+/* Class = "UISegmentedControl"; QrL-cr-MuW.segmentTitles[0] = "Login"; ObjectID = "QrL-cr-MuW"; */
+"QrL-cr-MuW.segmentTitles[0]" = "Login";
+
+/* Class = "UISegmentedControl"; QrL-cr-MuW.segmentTitles[1] = "Register"; ObjectID = "QrL-cr-MuW"; */
+"QrL-cr-MuW.segmentTitles[1]" = "Register";
+
+/* Class = "UILabel"; text = "NONE"; ObjectID = "REI-bK-ecU"; */
+"REI-bK-ecU.text" = "NONE";
+
+/* Class = "UILabel"; text = "Hours"; ObjectID = "RzT-D4-h81"; */
+"RzT-D4-h81.text" = "Hours";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "Uhg-03-Whg"; */
+"Uhg-03-Whg.text" = "0%";
+
+/* Class = "UINavigationItem"; title = "Book service / repair"; ObjectID = "UwH-qk-88I"; */
+"UwH-qk-88I.title" = "Book service / repair";
+
+/* Class = "UILabel"; text = "2019-12-31"; ObjectID = "V0N-Xp-09y"; */
+"V0N-Xp-09y.text" = "2019-12-31";
+
+/* Class = "UILabel"; text = "You don't have any discounts"; ObjectID = "WcQ-vm-Hya"; */
+"WcQ-vm-Hya.text" = "You don't have any discounts";
+
+/* Class = "UINavigationItem"; title = "Book a time"; ObjectID = "WpP-N9-d1T"; */
+"WpP-N9-d1T.title" = "Book a time";
+
+/* Class = "UITextField"; text = "0%"; ObjectID = "Xlx-c5-hem"; */
+"Xlx-c5-hem.text" = "0%";
+
+/* Class = "UITextField"; placeholder = "email@example.com"; ObjectID = "YTs-O1-HbE"; */
+"YTs-O1-HbE.placeholder" = "email@example.com";
+
+/* Class = "UINavigationItem"; title = "Skapa rabattkod"; ObjectID = "cGT-iF-veq"; */
+"cGT-iF-veq.title" = "Skapa rabattkod";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "dne-qS-fdv"; */
+"dne-qS-fdv.text" = "Email";
+
+/* Class = "UIBarButtonItem"; title = "Navigation"; ObjectID = "eSv-ug-H90"; */
+"eSv-ug-H90.title" = "Navigation";
+
+/* Class = "UILabel"; text = "Number of percentages"; ObjectID = "f3f-5g-xnX"; */
+"f3f-5g-xnX.text" = "Number of percentages";
+
+/* Class = "UILabel"; text = "NOTE! Applies only to Mekonomen Tagenevägen 9"; ObjectID = "grL-3w-PaE"; */
+"grL-3w-PaE.text" = "NOTE! Applies only to Mekonomen Tagenevägen 9";
+
+/* Class = "UITabBarItem"; title = "Find us"; ObjectID = "hJV-sT-jPN"; */
+"hJV-sT-jPN.title" = "Find us";
+
+/* Class = "UINavigationItem"; title = "Choose car"; ObjectID = "hrm-r4-dMw"; */
+"hrm-r4-dMw.title" = "Choose car";
+
+/* Class = "UINavigationItem"; title = "REG  NR"; ObjectID = "hzC-mR-Mfk"; */
+"hzC-mR-Mfk.title" = "REG  NR";
+
+/* Class = "UILabel"; text = "Enter a discount code"; ObjectID = "iZI-1k-LnW"; */
+"iZI-1k-LnW.text" = "Enter a discount code";
+
+/* Class = "UILabel"; text = "Firstname"; ObjectID = "ixW-qh-hZB"; */
+"ixW-qh-hZB.text" = "Firstname";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "j7V-w6-OrT"; */
+"j7V-w6-OrT.text" = "Label";
+
+/* Class = "UILabel"; text = "Coming soon..."; ObjectID = "jfT-6k-xZK"; */
+"jfT-6k-xZK.text" = "Coming soon...";
+
+/* Class = "UINavigationItem"; title = "Adminpanel"; ObjectID = "kt1-c1-6jg"; */
+"kt1-c1-6jg.title" = "Adminpanel";
+
+/* Class = "UITabBarItem"; title = "More"; ObjectID = "l4C-7Q-gN4"; */
+"l4C-7Q-gN4.title" = "More";
+
+/* Class = "UILabel"; text = "ButtonName"; ObjectID = "mkp-fd-fvq"; */
+"mkp-fd-fvq.text" = "ButtonName";
+
+/* Class = "UILabel"; text = "Information about the discount"; ObjectID = "nBA-mP-3CT"; */
+"nBA-mP-3CT.text" = "Information about the discount";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "nuJ-g4-lib"; */
+"nuJ-g4-lib.text" = "Category";
+
+/* Class = "UILabel"; text = "Kategori"; ObjectID = "oh0-xr-n47"; */
+"oh0-xr-n47.text" = "Kategori";
+
+/* Class = "UILabel"; text = "Registration plate"; ObjectID = "orT-Jq-Xqs"; */
+"orT-Jq-Xqs.text" = "Registration plate";
+
+/* Class = "UILabel"; text = "Show QR for customer recipients"; ObjectID = "qEv-R2-Mg4"; */
+"qEv-R2-Mg4.text" = "Show QR for customer recipients";
+
+/* Class = "UIButton"; normalTitle = "Get discount"; ObjectID = "r2U-yG-19z"; */
+"r2U-yG-19z.normalTitle" = "Get discount";
+
+/* Class = "UINavigationItem"; title = "Discount"; ObjectID = "rTd-uv-ksh"; */
+"rTd-uv-ksh.title" = "Discount";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tfz-5X-Zcb"; */
+"tfz-5X-Zcb.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Reset password"; ObjectID = "tuF-O4-GpH"; */
+"tuF-O4-GpH.title" = "Reset password";
+
+/* Class = "UINavigationItem"; title = "More"; ObjectID = "uhw-BQ-1OC"; */
+"uhw-BQ-1OC.title" = "More";
+
+/* Class = "UITextField"; placeholder = "********"; ObjectID = "v03-BY-Vrt"; */
+"v03-BY-Vrt.placeholder" = "********";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "vHb-vU-vSS"; */
+"vHb-vU-vSS.text" = "Email";
+
+/* Class = "UITextField"; placeholder = "Övrigt..."; ObjectID = "vcd-42-9TA"; */
+"vcd-42-9TA.placeholder" = "Övrigt...";
+
+/* Class = "UINavigationItem"; title = "Find us"; ObjectID = "vpq-v4-XKQ"; */
+"vpq-v4-XKQ.title" = "Find us";
+
+/* Class = "UITextField"; placeholder = "Registrationplate"; ObjectID = "w7u-hP-wDZ"; */
+"w7u-hP-wDZ.placeholder" = "Registrationplate";
+
+/* Class = "UILabel"; text = "Mon-Thur: 07:00 - 17:00"; ObjectID = "xU9-w4-lbt"; */
+"xU9-w4-lbt.text" = "Mon-Thur: 07:00 - 17:00";

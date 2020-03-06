@@ -3,29 +3,94 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00499735236C62FF00E22F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00499734236C62FF00E22F1F /* AppDelegate.swift */; };
 		00499737236C62FF00E22F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00499736236C62FF00E22F1F /* SceneDelegate.swift */; };
-		00499739236C62FF00E22F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00499738236C62FF00E22F1F /* ViewController.swift */; };
 		0049973C236C62FF00E22F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0049973A236C62FF00E22F1F /* Main.storyboard */; };
 		0049973F236C62FF00E22F1F /* awapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0049973D236C62FF00E22F1F /* awapp.xcdatamodeld */; };
 		00499741236C630100E22F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00499740236C630100E22F1F /* Assets.xcassets */; };
 		00499744236C630100E22F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00499742236C630100E22F1F /* LaunchScreen.storyboard */; };
+		005F170E237AC162004169B3 /* BookWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F170D237AC162004169B3 /* BookWheelViewController.swift */; };
+		005F1710237AF670004169B3 /* BookServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F170F237AF670004169B3 /* BookServiceViewController.swift */; };
+		005F1714237AFA77004169B3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F1713237AFA77004169B3 /* MapViewController.swift */; };
+		005F1717237AFADF004169B3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F1716237AFADF004169B3 /* ProfileViewController.swift */; };
+		005F1719237B13EF004169B3 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F1718237B13EF004169B3 /* CarTableViewCell.swift */; };
+		005F171B237B1960004169B3 /* MyCarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F171A237B1960004169B3 /* MyCarsViewController.swift */; };
+		005F171D237B1BF0004169B3 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F171C237B1BF0004169B3 /* ProfileTableViewCell.swift */; };
+		005F171F237C4ADE004169B3 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F171E237C4ADE004169B3 /* PersonViewController.swift */; };
+		005F1721237C4FC2004169B3 /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F1720237C4FC2004169B3 /* DiscountViewController.swift */; };
+		005F1724237C600D004169B3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F1723237C600D004169B3 /* SignInViewController.swift */; };
+		005F1728237C6076004169B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 005F1727237C6076004169B3 /* GoogleService-Info.plist */; };
+		005F57CA239FE61600E9AADF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F57C9239FE61600E9AADF /* PageViewController.swift */; };
+		005F57CC239FEFA100E9AADF /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F57CB239FEFA100E9AADF /* TutorialViewController.swift */; };
+		0060C26123A24580002E36CB /* LastTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060C26023A24580002E36CB /* LastTutorialViewController.swift */; };
+		0060C28323A28012002E36CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0060C28523A28012002E36CB /* Localizable.strings */; };
+		007350AF239BD91C00F6F073 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007350AE239BD91C00F6F073 /* AdminViewController.swift */; };
+		007350B2239BEA6800F6F073 /* ScanQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007350B1239BEA6800F6F073 /* ScanQrViewController.swift */; };
+		007350BE239E4DDC00F6F073 /* GiveDiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007350BD239E4DDC00F6F073 /* GiveDiscountViewController.swift */; };
+		007350C1239E767400F6F073 /* CarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007350C0239E767400F6F073 /* CarInfoViewController.swift */; };
+		007350C3239FA2F900F6F073 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007350C2239FA2F800F6F073 /* ResetPasswordViewController.swift */; };
+		00828C10237C689000AF2413 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00828C0F237C689000AF2413 /* MainViewController.swift */; };
+		00828C12237C690E00AF2413 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00828C11237C690E00AF2413 /* TabViewController.swift */; };
+		00828C14237C7BBC00AF2413 /* RedeemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00828C13237C7BBC00AF2413 /* RedeemViewController.swift */; };
+		00828C17237C8C0900AF2413 /* DiscountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00828C16237C8C0900AF2413 /* DiscountTableViewCell.swift */; };
+		00828C19237C8CAA00AF2413 /* Discount-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00828C18237C8CAA00AF2413 /* Discount-list.swift */; };
+		00828C1B237C960000AF2413 /* UseDiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00828C1A237C960000AF2413 /* UseDiscountViewController.swift */; };
+		00BC487923982B71004FD111 /* ChooseCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC487823982B71004FD111 /* ChooseCarViewController.swift */; };
+		00BC487B23982C05004FD111 /* ChooseCarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC487A23982C05004FD111 /* ChooseCarTableViewCell.swift */; };
+		C60051F544FD25BDB8DB7972 /* Pods_awapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7667EEBB2CF6A4E06EA19C /* Pods_awapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0002230323A281A600C09788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		00499731236C62FF00E22F1F /* awapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00499734236C62FF00E22F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00499736236C62FF00E22F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00499738236C62FF00E22F1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0049973B236C62FF00E22F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0049973E236C62FF00E22F1F /* awapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = awapp.xcdatamodel; sourceTree = "<group>"; };
 		00499740236C630100E22F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00499743236C630100E22F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00499745236C630100E22F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F170D237AC162004169B3 /* BookWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWheelViewController.swift; sourceTree = "<group>"; };
+		005F170F237AF670004169B3 /* BookServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookServiceViewController.swift; sourceTree = "<group>"; };
+		005F1713237AFA77004169B3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		005F1716237AFADF004169B3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		005F1718237B13EF004169B3 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		005F171A237B1960004169B3 /* MyCarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsViewController.swift; sourceTree = "<group>"; };
+		005F171C237B1BF0004169B3 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		005F171E237C4ADE004169B3 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		005F1720237C4FC2004169B3 /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
+		005F1723237C600D004169B3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		005F1727237C6076004169B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		005F57C3239FD5AF00E9AADF /* awapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = awapp.entitlements; sourceTree = "<group>"; };
+		005F57C9239FE61600E9AADF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		005F57CB239FEFA100E9AADF /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		00605D3A23A282820024659F /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = sv; path = sv.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00605D3B23A2836D0024659F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0060C26023A24580002E36CB /* LastTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastTutorialViewController.swift; sourceTree = "<group>"; };
+		0060C27D23A27FF0002E36CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0060C27E23A27FF1002E36CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0060C28023A27FFD002E36CB /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0060C28423A28012002E36CB /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0060C28623A2801C002E36CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0060C28823A28184002E36CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		007350AE239BD91C00F6F073 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		007350B1239BEA6800F6F073 /* ScanQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQrViewController.swift; sourceTree = "<group>"; };
+		007350BD239E4DDC00F6F073 /* GiveDiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveDiscountViewController.swift; sourceTree = "<group>"; };
+		007350C0239E767400F6F073 /* CarInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoViewController.swift; sourceTree = "<group>"; };
+		007350C2239FA2F800F6F073 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		00828C0F237C689000AF2413 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		00828C11237C690E00AF2413 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		00828C13237C7BBC00AF2413 /* RedeemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemViewController.swift; sourceTree = "<group>"; };
+		00828C16237C8C0900AF2413 /* DiscountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountTableViewCell.swift; sourceTree = "<group>"; };
+		00828C18237C8CAA00AF2413 /* Discount-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Discount-list.swift"; sourceTree = "<group>"; };
+		00828C1A237C960000AF2413 /* UseDiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseDiscountViewController.swift; sourceTree = "<group>"; };
+		00BC487823982B71004FD111 /* ChooseCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCarViewController.swift; sourceTree = "<group>"; };
+		00BC487A23982C05004FD111 /* ChooseCarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCarTableViewCell.swift; sourceTree = "<group>"; };
+		1A7667EEBB2CF6A4E06EA19C /* Pods_awapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_awapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829A24226AC498119C419A47 /* Pods-awapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awapp.release.xcconfig"; path = "Target Support Files/Pods-awapp/Pods-awapp.release.xcconfig"; sourceTree = "<group>"; };
+		A33B53B7066A4C95922E85F0 /* Pods-awapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awapp.debug.xcconfig"; path = "Target Support Files/Pods-awapp/Pods-awapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60051F544FD25BDB8DB7972 /* Pods_awapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +110,11 @@
 			children = (
 				00499733236C62FF00E22F1F /* awapp */,
 				00499732236C62FF00E22F1F /* Products */,
+				2CB1C07AEDA75756BF9CC60C /* Pods */,
+				295F233E0E5EA87546CE4D9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		00499732236C62FF00E22F1F /* Products */ = {
 			isa = PBXGroup;
@@ -58,16 +127,133 @@
 		00499733236C62FF00E22F1F /* awapp */ = {
 			isa = PBXGroup;
 			children = (
+				005F57C3239FD5AF00E9AADF /* awapp.entitlements */,
 				00499734236C62FF00E22F1F /* AppDelegate.swift */,
 				00499736236C62FF00E22F1F /* SceneDelegate.swift */,
-				00499738236C62FF00E22F1F /* ViewController.swift */,
 				0049973A236C62FF00E22F1F /* Main.storyboard */,
 				00499740236C630100E22F1F /* Assets.xcassets */,
 				00499742236C630100E22F1F /* LaunchScreen.storyboard */,
 				00499745236C630100E22F1F /* Info.plist */,
+				005F1727237C6076004169B3 /* GoogleService-Info.plist */,
 				0049973D236C62FF00E22F1F /* awapp.xcdatamodeld */,
+				0049974E236C642A00E22F1F /* ViewControllers */,
+				0060C28523A28012002E36CB /* Localizable.strings */,
 			);
 			path = awapp;
+			sourceTree = "<group>";
+		};
+		0049974E236C642A00E22F1F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				005F57C8239FE50800E9AADF /* QuickGuide */,
+				005F1722237C5FF2004169B3 /* Signin */,
+				005F1715237AFAD2004169B3 /* Profile */,
+				005F1712237AFA6C004169B3 /* Map */,
+				005F1711237AFA62004169B3 /* Booking */,
+				00828C0F237C689000AF2413 /* MainViewController.swift */,
+				00828C11237C690E00AF2413 /* TabViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		005F1711237AFA62004169B3 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				005F170D237AC162004169B3 /* BookWheelViewController.swift */,
+				005F170F237AF670004169B3 /* BookServiceViewController.swift */,
+				00BC487823982B71004FD111 /* ChooseCarViewController.swift */,
+				00BC487A23982C05004FD111 /* ChooseCarTableViewCell.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		005F1712237AFA6C004169B3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				005F1713237AFA77004169B3 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		005F1715237AFAD2004169B3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				007350BF239E764C00F6F073 /* vehicles */,
+				007350B0239BDACB00F6F073 /* Admin panel */,
+				00828C15237C8BF400AF2413 /* discount */,
+				005F1716237AFADF004169B3 /* ProfileViewController.swift */,
+				005F171C237B1BF0004169B3 /* ProfileTableViewCell.swift */,
+				005F171E237C4ADE004169B3 /* PersonViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		005F1722237C5FF2004169B3 /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				005F1723237C600D004169B3 /* SignInViewController.swift */,
+				007350C2239FA2F800F6F073 /* ResetPasswordViewController.swift */,
+			);
+			path = Signin;
+			sourceTree = "<group>";
+		};
+		005F57C8239FE50800E9AADF /* QuickGuide */ = {
+			isa = PBXGroup;
+			children = (
+				005F57C9239FE61600E9AADF /* PageViewController.swift */,
+				005F57CB239FEFA100E9AADF /* TutorialViewController.swift */,
+				0060C26023A24580002E36CB /* LastTutorialViewController.swift */,
+			);
+			path = QuickGuide;
+			sourceTree = "<group>";
+		};
+		007350B0239BDACB00F6F073 /* Admin panel */ = {
+			isa = PBXGroup;
+			children = (
+				007350AE239BD91C00F6F073 /* AdminViewController.swift */,
+				007350B1239BEA6800F6F073 /* ScanQrViewController.swift */,
+				007350BD239E4DDC00F6F073 /* GiveDiscountViewController.swift */,
+			);
+			path = "Admin panel";
+			sourceTree = "<group>";
+		};
+		007350BF239E764C00F6F073 /* vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				005F1718237B13EF004169B3 /* CarTableViewCell.swift */,
+				005F171A237B1960004169B3 /* MyCarsViewController.swift */,
+				007350C0239E767400F6F073 /* CarInfoViewController.swift */,
+			);
+			path = vehicles;
+			sourceTree = "<group>";
+		};
+		00828C15237C8BF400AF2413 /* discount */ = {
+			isa = PBXGroup;
+			children = (
+				00828C13237C7BBC00AF2413 /* RedeemViewController.swift */,
+				00828C1A237C960000AF2413 /* UseDiscountViewController.swift */,
+				005F1720237C4FC2004169B3 /* DiscountViewController.swift */,
+				00828C16237C8C0900AF2413 /* DiscountTableViewCell.swift */,
+				00828C18237C8CAA00AF2413 /* Discount-list.swift */,
+			);
+			path = discount;
+			sourceTree = "<group>";
+		};
+		295F233E0E5EA87546CE4D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A7667EEBB2CF6A4E06EA19C /* Pods_awapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CB1C07AEDA75756BF9CC60C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A33B53B7066A4C95922E85F0 /* Pods-awapp.debug.xcconfig */,
+				829A24226AC498119C419A47 /* Pods-awapp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00499748236C630100E22F1F /* Build configuration list for PBXNativeTarget "awapp" */;
 			buildPhases = (
+				68A4EF486A3A28C5E63E79EF /* [CP] Check Pods Manifest.lock */,
 				0049972D236C62FF00E22F1F /* Sources */,
 				0049972E236C62FF00E22F1F /* Frameworks */,
 				0049972F236C62FF00E22F1F /* Resources */,
+				04D54ABDDD6CA4CD5F8EB83D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +300,7 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
 			);
 			mainGroup = 00499728236C62FF00E22F1F;
 			productRefGroup = 00499732236C62FF00E22F1F /* Products */;
@@ -128,7 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0060C28323A28012002E36CB /* Localizable.strings in Resources */,
 				00499744236C630100E22F1F /* LaunchScreen.storyboard in Resources */,
+				005F1728237C6076004169B3 /* GoogleService-Info.plist in Resources */,
 				00499741236C630100E22F1F /* Assets.xcassets in Resources */,
 				0049973C236C62FF00E22F1F /* Main.storyboard in Resources */,
 			);
@@ -136,15 +327,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04D54ABDDD6CA4CD5F8EB83D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awapp/Pods-awapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awapp/Pods-awapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-awapp/Pods-awapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A4EF486A3A28C5E63E79EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-awapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0049972D236C62FF00E22F1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00499739236C62FF00E22F1F /* ViewController.swift in Sources */,
+				005F1724237C600D004169B3 /* SignInViewController.swift in Sources */,
+				005F1710237AF670004169B3 /* BookServiceViewController.swift in Sources */,
+				007350C1239E767400F6F073 /* CarInfoViewController.swift in Sources */,
+				007350B2239BEA6800F6F073 /* ScanQrViewController.swift in Sources */,
+				00BC487B23982C05004FD111 /* ChooseCarTableViewCell.swift in Sources */,
 				00499735236C62FF00E22F1F /* AppDelegate.swift in Sources */,
+				005F171D237B1BF0004169B3 /* ProfileTableViewCell.swift in Sources */,
+				00828C14237C7BBC00AF2413 /* RedeemViewController.swift in Sources */,
 				00499737236C62FF00E22F1F /* SceneDelegate.swift in Sources */,
+				007350C3239FA2F900F6F073 /* ResetPasswordViewController.swift in Sources */,
 				0049973F236C62FF00E22F1F /* awapp.xcdatamodeld in Sources */,
+				005F1719237B13EF004169B3 /* CarTableViewCell.swift in Sources */,
+				00828C12237C690E00AF2413 /* TabViewController.swift in Sources */,
+				005F171F237C4ADE004169B3 /* PersonViewController.swift in Sources */,
+				005F57CA239FE61600E9AADF /* PageViewController.swift in Sources */,
+				007350AF239BD91C00F6F073 /* AdminViewController.swift in Sources */,
+				00828C10237C689000AF2413 /* MainViewController.swift in Sources */,
+				00828C19237C8CAA00AF2413 /* Discount-list.swift in Sources */,
+				00828C17237C8C0900AF2413 /* DiscountTableViewCell.swift in Sources */,
+				005F1721237C4FC2004169B3 /* DiscountViewController.swift in Sources */,
+				00BC487923982B71004FD111 /* ChooseCarViewController.swift in Sources */,
+				00828C1B237C960000AF2413 /* UseDiscountViewController.swift in Sources */,
+				005F57CC239FEFA100E9AADF /* TutorialViewController.swift in Sources */,
+				005F170E237AC162004169B3 /* BookWheelViewController.swift in Sources */,
+				007350BE239E4DDC00F6F073 /* GiveDiscountViewController.swift in Sources */,
+				005F171B237B1960004169B3 /* MyCarsViewController.swift in Sources */,
+				005F1717237AFADF004169B3 /* ProfileViewController.swift in Sources */,
+				0060C26123A24580002E36CB /* LastTutorialViewController.swift in Sources */,
+				005F1714237AFA77004169B3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +412,9 @@
 		0049973A236C62FF00E22F1F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0049973B236C62FF00E22F1F /* Base */,
+				0060C27D23A27FF0002E36CB /* Base */,
+				0060C28823A28184002E36CB /* en */,
+				00605D3A23A282820024659F /* sv */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -162,9 +422,21 @@
 		00499742236C630100E22F1F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00499743236C630100E22F1F /* Base */,
+				0060C27E23A27FF1002E36CB /* Base */,
+				0060C28023A27FFD002E36CB /* sv */,
+				0002230323A281A600C09788 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0060C28523A28012002E36CB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0060C28423A28012002E36CB /* sv */,
+				0060C28623A2801C002E36CB /* en */,
+				00605D3B23A2836D0024659F /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -174,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -234,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -286,9 +560,12 @@
 		};
 		00499749236C630100E22F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33B53B7066A4C95922E85F0 /* Pods-awapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = awapp/awapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BYFQ6V29;
 				INFOPLIST_FILE = awapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,9 +580,12 @@
 		};
 		0049974A236C630100E22F1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829A24226AC498119C419A47 /* Pods-awapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = awapp/awapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38BYFQ6V29;
 				INFOPLIST_FILE = awapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
